@@ -1,10 +1,12 @@
 import streamlit as st
-from streamlit_chat import message
-
 
 def main():
-    print("Hello World")
+    st.set_page_config(
+        page_title="Your own ChatGPT",
+        page_icon="🤖"
+    )
 
+    st.header("Your own ChatGPT 🤖")
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
