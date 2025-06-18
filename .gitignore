@@ -1,9 +1,44 @@
-# Ignore environment variables and sensitive files
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.log
+
+# ------------------------
+# Environment Variables
+# ------------------------
 .env
 
-# Python cache and compiled files
-__pycache__/
-*.pyc
-
-# Ignore virtualenv folders (just in case)
+# ------------------------
+# Virtual Environments
+# ------------------------
 venv/
+env/
+.gptenv1/
+*.conda
+*.env
+
+# Conda environment folders (if using custom env directories)
+conda_envs/
+*.lock
+
+# ------------------------
+# Streamlit Caches & Temp
+# ------------------------
+.streamlit/config.toml
+.streamlit/secrets.toml
+.streamlit/cache/
+.cache/
+.uploads/
+
+# ------------------------
+# VS Code and OS Metadata
+# ------------------------
+.vscode/
+*.DS_Store
+Thumbs.db

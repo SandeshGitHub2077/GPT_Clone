@@ -1,0 +1,7 @@
+python_version == 3.8.20
+streamlit
+streamlit-chat
+openai
+python-dotenv
+langchain
+langchain-openai

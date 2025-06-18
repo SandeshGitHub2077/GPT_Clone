@@ -1,3 +1,0 @@
-python = 3.8.20
-pip install streamlit
-pip install streamlit-chat
